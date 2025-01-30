@@ -1,0 +1,11 @@
+[tool.poetry]
+package-mode = false
+name = "Jll.github.io"
+version = "0.1.0"
+description = ""
+authors = ["José López <pajileb@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]

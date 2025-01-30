@@ -135,7 +135,7 @@ if not DEBUG:
 module.exports = {
   // ...
   mode: 'production'
-};
+}
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static')

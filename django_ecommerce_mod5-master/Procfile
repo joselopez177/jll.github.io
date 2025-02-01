@@ -1,1 +1,1 @@
-web: python -m gunicorn jll.github.io.asgi:application -k uvicorn.workers.UvicornWorker
+web: python -m gunicorn ecommerce.asgi:application -k uvicorn.workers.UvicornWorker

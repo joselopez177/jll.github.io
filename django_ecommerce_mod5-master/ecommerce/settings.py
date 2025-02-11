@@ -26,7 +26,8 @@ SECRET_KEY = 'z+ksf@)0d^qojbh4rnp4b1to$hq&*tt(3bs$gf(3i267g$k9ln'
 DEBUG = False
 
 #ALLOWED_HOSTS = ['dpg-cuhtqel2ng1s73dulvhg-a.oregon-postgres.render.com', '127.0.0.1', 'localhost']
-ALLOWED_HOSTS = ['https://jll-github-io.onrender.com']
+
+ALLOWED_HOSTS = ['https://jll-github-io.onrender.com', 'localhost', '127.0.0.1']
 
 # Application definition
 

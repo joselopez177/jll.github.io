@@ -33,11 +33,11 @@ if not DEBUG:
     # and renames the files with unique names for each version to support long-term caching
     STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
  """ 
-DEBUG = True
+DEBUG = False
 
 #ALLOWED_HOSTS = ['dpg-cuhtqel2ng1s73dulvhg-a.oregon-postgres.render.com', '127.0.0.1', 'localhost']
 
-ALLOWED_HOSTS = ['https://jll-github-io.onrender.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['https://jll-github-io.onrender.com']
 
 # Application definition
 
